@@ -35,4 +35,22 @@ public class Hive {
 
     }
 
+    public void displayWasps(){
+        String currentType = "Queen";
+        for(Wasp wasp :wasps){
+            if(!currentType.equals(wasp.getWaspType())){
+                currentType = wasp.getWaspType();
+                System.out.println("");
+            }
+            System.out.print("[ " + wasp.getWaspType() + " : " + wasp.getWaspHealth() + " ]");
+        }
+
+
+
+
+
+
+        System.out.println("");
+    }
+
 }
