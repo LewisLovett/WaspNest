@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d22c1-b9dd-4885-818f-31ec9141ca8b" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/wasp/Wasp.java" afterDir="false" />
+    <list default="true" id="779d22c1-b9dd-4885-818f-31ec9141ca8b" name="Changes" comment="Created Wasp class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/wasp/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/wasp/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/wasp/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/wasp/Queen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668609773312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created Wasp class">
+      <created>1668611021799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668611021799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Created Wasp class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Wasp class" />
   </component>
 </project>
