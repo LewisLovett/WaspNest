@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d22c1-b9dd-4885-818f-31ec9141ca8b" name="Changes" comment="Created Hive class">
+    <list default="true" id="779d22c1-b9dd-4885-818f-31ec9141ca8b" name="Changes" comment="Completed wasp game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/Hive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/Hive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/wasp/Wasp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nology/waspgame/wasp/Wasp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/lglma/Documents/Development/JAVA/WaspNest"
   }
 }]]></component>
   <component name="RunManager" selected="Application.game">
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668613747093</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated game and hive">
+      <created>1668618018832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668618018832</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +139,8 @@
     <MESSAGE value="Created Wasp class" />
     <MESSAGE value="Created Drone,Queen and worker classes" />
     <MESSAGE value="Created Hive class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Hive class" />
+    <MESSAGE value="Updated game and hive" />
+    <MESSAGE value="Completed wasp game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed wasp game" />
   </component>
 </project>

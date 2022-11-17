@@ -47,5 +47,8 @@ public class Wasp {
 
     public void hitWasp(){
         this.waspHealth -= this.damagePerHit;
+        if(waspHealth<0){
+            waspHealth=0;
+        }
     }
 }

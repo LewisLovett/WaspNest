@@ -5,26 +5,28 @@ import java.util.Scanner;
 
 public class game {
     public static void main(String[] args) {
-        System.out.println("               _  _");
-        System.out.println("              | )/ )");
-        System.out.println("           \\ |//,' __");
-        System.out.println("           (\")(_)-\"()))=-");
-        System.out.println("               (\\\\");
+        System.out.println("            _  _");
+        System.out.println("           | )/ )");
+        System.out.println("        \\\\ |//,' __");
+        System.out.println("        (\")(_)-\"()))=-");
+        System.out.println("           (\\\\");
+
         Hive hive = new Hive();
-        Boolean isHiveDefeated = false;
+        boolean isHiveDefeated = false;
         Random rand = new Random();
         Scanner scanObj = new Scanner(System.in);
-        String userInput;
         int randNum;
         while(!isHiveDefeated){
             System.out.println("Enter press key to attack");
-            userInput = scanObj.nextLine();
+            scanObj.nextLine();
+            randNum = rand.nextInt(hive.getWasps().size());
+            hive.hitWasp(randNum);
+            hive.displayWasps();
 
-
-                randNum = rand.nextInt(14);
-                hive.getWasps().get(randNum).getWaspId();
-                hive.displayWasps();
-
+            if(hive.getWasps().size()==0 || !hive.getHasQueen()){
+                isHiveDefeated = true;
+                System.out.println("The Hive has been defeated, you win!");
+            }
 
         }
 

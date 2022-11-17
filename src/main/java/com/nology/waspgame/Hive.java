@@ -9,6 +9,16 @@ import java.util.ArrayList;
 
 public class Hive {
     protected ArrayList<Wasp> wasps = new ArrayList<>();
+    protected boolean hasQueen = true;
+
+    public boolean getHasQueen() {
+        return hasQueen;
+    }
+    public void setHasQueen(boolean hasQueen) {
+        this.hasQueen = hasQueen;
+    }
+
+
 
     public ArrayList<Wasp> getWasps() {
         return wasps;
@@ -44,13 +54,17 @@ public class Hive {
             }
             System.out.print("[ " + wasp.getWaspType() + " : " + wasp.getWaspHealth() + " ]");
         }
-
-
-
-
-
-
         System.out.println("");
+    }
+    public void hitWasp(int waspIndex){
+        Wasp wasp = wasps.get(waspIndex);
+        wasp.hitWasp();
+        if(wasp.getWaspHealth()==0){
+            if (wasp.getWaspType().equals("Queen" )){
+                hasQueen = false;
+            }
+            wasps.remove(waspIndex);
+        }
     }
 
 }
